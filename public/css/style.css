@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#online {
+    color: green;
+}
+
+#offline {
+    color: red;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 150px;
+  border: 1px solid #cccccc;
+  height: 30px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+.messages {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.mes {
+  width: inherit;
+  height: 10px;
+  margin-top: 8px;
+}

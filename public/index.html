@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importamos los estilos css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sockets</title>
+  </head>
+  <body>
+    <h1>Sockets</h1>
+    <br />
+    <p>
+      Server status
+      <span id="online">Online</span>
+      <span id="offline">Offline</span>
+    </p>
+
+    <main>
+        <input type="text" id="user" placeholder="Username">
+        <input type="text" id="message" placeholder="Message here">
+        <button id="send">Enviar</button>
+    </main>
+
+    <div class="messages">
+
+    </div>
+
+    <!-- Importamos funcionalidades de socket en la parte del cliente -->
+    <script src="./socket.io/socket.io.js"></script>
+    <!-- Importamos los eventos del cliente -->
+    <script src="./js/socket-client.js"></script>
+  </body>
+</html>
